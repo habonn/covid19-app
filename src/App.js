@@ -83,18 +83,18 @@ function App() {
 
   return (
     <Grid container direction="row">
-      <Grid item xs={6}>
+      <Grid item md={6} lg={6}>
         <ChartRace
           data={data}
           backgroundColor='#000'
-          padding={12}
+          // padding={12}
           itemHeight={50}
           gap={12}
           titleStyle={{ font: 'normal 400 13px Arial', color: '#fff' }}
           valueStyle={{ font: 'normal 400 11px Arial', color: 'rgba(255,255,255, 0.42)' }}
         />
       </Grid>
-      <Grid item container direction='column' alignItems='center' xs={6}>
+      <Grid item container direction='column' alignItems='center' md={6} lg={6}>
         <Grid item style={{ position: 'fixed' }}>
           <Grid item>
           <img src={logoCovid} alt={"logoCovid"} style={{ width: "218px", marginBottom: "30px" }}  />
