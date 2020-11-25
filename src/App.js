@@ -87,7 +87,7 @@ function App() {
         <ChartRace
           data={data}
           backgroundColor='#000'
-          // padding={12}
+          padding={12}
           itemHeight={50}
           gap={12}
           titleStyle={{ font: 'normal 400 13px Arial', color: '#fff' }}
